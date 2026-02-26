@@ -6,7 +6,7 @@ import altair as alt
 
 
 def getPathInStreamlitDir():
-    return Path(__file__).parents[1] / str('Streamlit/')
+    return Path(__file__).parents[1] / str('streamlit/')
 
 
 st.title('This is a test of Streamlit cloud from Deepnote through Github in OH today')
